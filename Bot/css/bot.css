@@ -1,0 +1,57 @@
+#recuadro-bot{
+    position: relative;
+    left: calc(50% - 100px);
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+}
+#inicio-bot{
+    position: relative;
+    left: calc(50% - 50px);
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+}
+#conversacion{
+    position: relative;
+    left: 220px;
+    width: 200px;
+    height: 200px;
+}
+.arrow_box {
+    position: relative;
+    font-size: 25px;
+	background: #88b7d5;
+	border: 4px solid #c2e1f5;
+}
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #88b7d5;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-right-color: #c2e1f5;
+	border-width: 16px;
+	margin-top: -16px;
+}
+#imagen-bot{
+
+}
+#imagen-bot img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
